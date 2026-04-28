@@ -68,24 +68,30 @@ Pokud vstup neobsahuje, polož **maximálně 2 cílené otázky** (ne 5, ne 10):
 
 Pokud uživatel řekne "prostě to projeď", nezdržuj — projeď proti všem principům s nejlepším odhadem kontextu.
 
-### Fáze 3 — Projeď principy 1–7 (drž to krátké)
+### Fáze 3 — Projeď principy 1–7 (drž to krátké, fakt krátké)
 
 Pro každý ze 7 principů určit hodnocení: ✅ Hit / ⚠️ Concern / ❌ Violation / 🤷 Cannot tell.
 
-**Detail piš JEN pro principy s ✅⚠️❌.** Principy s 🤷 Cannot tell zůstanou jen v sumární tabulce — žádný detailní rozbor, žádná citace. (Pokud user přímo požádá o detail i u Cannot tell, doplň co konkrétně chybí pro posouzení.)
+**Detail piš JEN pro principy s ✅⚠️❌.** Principy s 🤷 Cannot tell zůstanou jen v sumární tabulce — žádný detailní rozbor, žádná citace.
 
-Per-princip detail (kompaktní, ~3–4 řádky):
+**Word budget per princip (PŘÍSNĚ DRŽ):**
 
-1. **Nadpis:** `### #X Název principu — verdikt`
-2. **Citace** v *italics*: 1 věta z `design-principles.md`, max 20 slov, klíčová fráze.
-3. **Pozorování:** 1–2 věty, co ve vstupu vede k verdiktu (konkrétní prvek/barva/text/číslo, ne obecnost).
-4. **Doporučení:** 1 věta. Pro ✅ Hit napiš stručně "drží — ponechat" pokud nemá smysl rozvádět.
+| Položka | Max slov | Pravidlo |
+|---|---|---|
+| Citace | 20 | 1 věta z `design-principles.md`, klíčová fráze, ne celý odstavec |
+| Pozorování | **25** | 1 věta, max 2. Konkrétní prvky/čísla/barvy. Žádné výčty se 3 sub-claims. |
+| Doporučení | **20** | 1 věta. Imperativ. ✅ Hit = "drží — ponechat" (3 slova). |
 
-**Pravidla:**
+**Word budget per celý report:** **~200 slov**, **max 300**. Pokud jdeš nad 300, něco škrtni — typicky pozorování.
+
+**Pravidla obsahu:**
 
 - Žádné generické UX rady. Vždy odkazuj na konkrétní frázi z principu.
 - Nezakrývej nedostatek důkazů hodnocením `Hit`. `Cannot tell` je validní výsledek.
-- Pokud screenshot obsahuje **osobní údaje** (skutečná jména, emaily, telefony, čísla objednávek), v reportu je nezveřejňuj. Označ jen krátkou poznámkou na konci ("Pozor: ve screenshotu je vidět skutečné jméno zákazníka — neukládej do trvalých dokumentů.").
+- Klíčové pozorování v sumární tabulce: max **12 slov** (musí se vejít do buňky bez zalomení).
+- Top 3 akce: každá max **15 slov**, žádné dlouhé parentetické vysvětlivky — odkaz na princip stačí.
+- Verdikt: **1 věta**, max 25 slov.
+- Pokud screenshot obsahuje **osobní údaje** (skutečná jména, emaily, telefony, čísla objednávek), v reportu je nezveřejňuj. Stačí 1 řádek upozornění na konci.
 
 ### Fáze 4 — Sumarizace a verdikt
 
