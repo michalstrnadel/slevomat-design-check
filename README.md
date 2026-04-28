@@ -26,8 +26,9 @@ Tento repo obsahuje **2 soubory**, které jsou taženy ze [slevomat-ai-hub](http
 | Soubor | Co obsahuje |
 |---|---|
 | [`design-principles.md`](./design-principles.md) | Kanonická verze 7 designových principů Slevomatu (Co znamená / Proč / Jak se pozná v praxi). Source of truth pro skill. |
-| [`SKILL.md`](./SKILL.md) | AI skill ve formátu Claude Code: instrukce, role, examples, anti-patterns. Co se aktivuje, když uživatel napíše `design-check`. |
+| [`SKILL.md`](./SKILL.md) | AI skill: instrukce, role, examples, anti-patterns. Frontmatter kompatibilní s Claude.ai uploadem (jen `name` + `description`). |
 | [`PROMPT.md`](./PROMPT.md) | **Single-file portable prompt** — skill + principy zlepené do jednoho ready-to-paste promptu pro Claude.ai / Gemini / ChatGPT. Použij když nejde stáhnout repo přímo. |
+| [`slevomat-design-check.zip`](./slevomat-design-check.zip) | **Předbalený ZIP pro Claude.ai upload** (Skills → + → Upload a skill). Obsahuje SKILL.md + design-principles.md ve správné struktuře. |
 
 ---
 
@@ -60,9 +61,18 @@ Skill je SKILL.md ve formátu Claude Code. Pokud používáš **slevomat-ai-hub*
 2. Spusť Claude Code: `claude` ve složce repa
 3. V chatu napiš: `design-check` + popis nebo přilož screenshot
 
-### Použití mimo Claude Code (Claude.ai / Gemini / ChatGPT)
+### Použití mimo Claude Code
 
-Pokud máš obyčejný chat (bez Claude Code), máš **2 možnosti**:
+#### Claude.ai (s nahráním do Skills)
+
+1. Stáhni [`slevomat-design-check.zip`](./slevomat-design-check.zip) (klik na soubor → tlačítko **Download** vpravo nahoře)
+2. V Claude.ai → Skills panel → **+** → **Create skill** → **Upload a skill**
+3. Vyber stažený ZIP
+4. Skill se objeví v Personal skills, aktivuje se napsáním `design-check` v konverzaci
+
+#### Claude.ai / Gemini / ChatGPT (bez nahrání — paste prompt)
+
+Pokud nechceš nahrávat skill, máš **2 možnosti**:
 
 **A) Nech model stáhnout repo:**
 > "Načti SKILL.md a design-principles.md z https://github.com/michalstrnadel/slevomat-design-check a aplikuj skill na tenhle screenshot."

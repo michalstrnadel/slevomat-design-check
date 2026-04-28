@@ -1,18 +1,13 @@
 ---
-name: "design-check"
-owner: "michal.strnadel@slevomat.cz"
-version: "0.1.0"
-last_updated: "2026-04-28"
-description: "Reviews a feature idea, screen description or screenshot against the 7 Slevomat design principles. Produces a structured per-principle feedback (Hit / Concern / Violation / Cannot tell) with specific, actionable recommendations grounded in principle quotes. Use when a PM wants to validate an idea before involving designers, when a designer wants self-review before sharing, or when an exec wants to gate-check a proposal. Pure text-and-image in, structured markdown out — no MCP, no file generation."
-triggers:
-  - "design check"
-  - "design-check"
-  - "projeď přes designové principy"
-  - "design review"
-  - "ověř proti principům"
-  - "slevomat design principy"
-  - "principy check"
+name: design-check
+description: Reviews a feature idea, screen description or screenshot against the 7 Slevomat design principles. Produces structured per-principle feedback (Hit / Concern / Violation / Cannot tell) with specific, actionable recommendations grounded in principle quotes. Use when a PM wants to validate an idea before involving designers, when a designer wants self-review before sharing, or when an exec wants to gate-check a proposal. Triggers on phrases like "design check", "projeď přes designové principy", "design review", "ověř proti principům", "slevomat design principy".
 ---
+
+<!-- Metadata (not used by Claude.ai parser, kept for hub/version tracking) -->
+<!-- owner: michal.strnadel@slevomat.cz -->
+<!-- version: 0.1.0 -->
+<!-- last_updated: 2026-04-28 -->
+
 
 ## Popis
 
