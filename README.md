@@ -89,43 +89,6 @@ Kompaktní strukturovaný report (~250 slov detailu):
 
 Principy s 🤷 Cannot tell se v detailu nezobrazují — zůstávají jen v sumární tabulce, ať je report kompaktní.
 
-### Příklad výstupu (zkráceno)
-
-```markdown
-# Design check — Saské Švýcarsko (product card)
-
-## Hodnocení principů
-
-| # | Princip | Verdikt | Klíčové pozorování |
-|---|---|---|---|
-| 1 | Použitelnost a spolehlivost | ⚠️ Concern | Bílá cena na červeném boxu — kontrast na hraně |
-| 2 | Vizuální kultivovanost | ⚠️ Concern | 4 barevné akcenty bojují o pozornost |
-| 3 | Zřetelně výhodně | ⚠️ Concern | 2 přeškrtnuté ceny + "až 15 %" — nejasná hierarchie výhody |
-| 4 | Zážitek bez přikrášlení | ✅ Hit | Fotka autentická, "3*" konkrétní |
-| 5 | Cesta uživatele | 🤷 Cannot tell | — |
-| 6 | Směr + objevování | 🤷 Cannot tell | — |
-| 7 | Design, který překvapí | ✅ Hit | Fotka navozuje atmosféru zážitku |
-
-## Detail
-
-### #3 Zřetelně výhodně — ⚠️ Concern
-*"Výhodnost má v designu své místo, ale nemusí křičet."*
-**Pozorování:** 2 přeškrtnuté ceny + "First minute až 15 %" → uživatel netuší, co je referenční price.
-**Doporučení:** Sjednotit na 1 reference price + jasnou slevu.
-
-(...)
-
-## Skóre
-✅ 2 · ⚠️ 3 · ❌ 0 · 🤷 2 (z 7)
-
-## Top 3 akce
-1. Sjednotit cenovou hierarchii *(princip #3)*
-2. Ověřit kontrast bílé na red boxu *(princip #1)*
-3. Redukovat počet barevných akcentů *(princip #2)*
-
-## Verdikt: SHARPEN
-```
-
 ---
 
 ## Klíčové behaviorální pravidlo
