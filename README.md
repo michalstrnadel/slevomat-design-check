@@ -4,7 +4,7 @@
 > Pure text/image-in → strukturovaný feedback-out. Žádné MCP, žádné generování souborů.
 
 **Status:** v0.1.0 (2026-04-28)
-**Repo visibility:** PRIVATE — interní materiál Slevomat Group, ne pro veřejnou distribuci.
+**Repo visibility:** Public — sdílíme open jako příspěvek do design komunity.
 **Owner:** Michal Strnadel (Design Lead, Slevomat) — michal.strnadel@slevomat.cz
 
 ---
@@ -183,17 +183,17 @@ Tento standalone repo je **export ze [slevomat-ai-hub](https://github.com/slevom
 
 ---
 
-## Bezpečnost
+## Bezpečnost a osobní údaje
 
-- Repo je **PRIVATE**. Obsahuje interní firemní materiály (designové principy Slevomatu).
+- Repo je **public** — design principy sdílíme otevřeně. Konkrétní firemní data (zákaznické insights, byznys metriky, customer journey detaily) v tomto repu nejsou.
 - Skill je instruovaný **nezveřejňovat osobní údaje** (skutečná jména, emaily, telefony, čísla objednávek), které by mohly být na screenshotech. V reportu označí jen jednou větou, že byly viděny.
-- Při sdílení reportu z designu vždy zkontroluj, že neobsahuje citlivá data.
+- Při sdílení reportu (zvlášť veřejně) vždy zkontroluj, že neobsahuje citlivá data ze screenshotu.
 
 ---
 
 ## Licence
 
-Interní materiál Slevomat Group, s.r.o. Všechna práva vyhrazena. Bez explicitního souhlasu vlastníka nesdílet veřejně.
+© Slevomat Group, s.r.o. Sdíleno jako open reference pro design komunitu — můžeš číst, citovat, inspirovat se. Pokud principy přebíráš pro vlastní projekt, prosím odkazuj zpět na tento repo a uveď zdroj. Pro komerční přepoužití nebo uvedení v publikaci kontaktuj michal.strnadel@slevomat.cz.
 
 ---
 
