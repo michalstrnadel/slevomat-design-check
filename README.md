@@ -27,6 +27,7 @@ Tento repo obsahuje **2 soubory**, které jsou taženy ze [slevomat-ai-hub](http
 |---|---|
 | [`design-principles.md`](./design-principles.md) | Kanonická verze 7 designových principů Slevomatu (Co znamená / Proč / Jak se pozná v praxi). Source of truth pro skill. |
 | [`SKILL.md`](./SKILL.md) | AI skill ve formátu Claude Code: instrukce, role, examples, anti-patterns. Co se aktivuje, když uživatel napíše `design-check`. |
+| [`PROMPT.md`](./PROMPT.md) | **Single-file portable prompt** — skill + principy zlepené do jednoho ready-to-paste promptu pro Claude.ai / Gemini / ChatGPT. Použij když nejde stáhnout repo přímo. |
 
 ---
 
@@ -58,6 +59,23 @@ Skill je SKILL.md ve formátu Claude Code. Pokud používáš **slevomat-ai-hub*
 1. Naklonuj repo: `git clone <repo-url> && cd slevomat-design-check`
 2. Spusť Claude Code: `claude` ve složce repa
 3. V chatu napiš: `design-check` + popis nebo přilož screenshot
+
+### Použití mimo Claude Code (Claude.ai / Gemini / ChatGPT)
+
+Pokud máš obyčejný chat (bez Claude Code), máš **2 možnosti**:
+
+**A) Nech model stáhnout repo:**
+> "Načti SKILL.md a design-principles.md z https://github.com/michalstrnadel/slevomat-design-check a aplikuj skill na tenhle screenshot."
+
+Tohle občas selže kvůli **GitHub anonymous rate limitu** (zvlášť pod zátěží).
+
+**B) Single-file paste (spolehlivější):**
+1. Otevři [`PROMPT.md`](./PROMPT.md) v repu
+2. Zkopíruj **celý obsah** (Raw view → Cmd+A, Cmd+C)
+3. Paste do první zprávy v chatu
+4. Druhá zpráva: screenshot + popis
+
+`PROMPT.md` má skill + principy v jednom souboru, takže model nepotřebuje nic stahovat.
 
 ### Spouštěcí fráze (triggery)
 
